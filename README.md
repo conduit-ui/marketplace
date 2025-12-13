@@ -14,7 +14,8 @@ Add a plugin from this marketplace:
 
 | Plugin | Description | Install |
 |--------|-------------|---------|
-| **review** | Expert PR review system with architecture assessment, pattern learning, and production-readiness validation | `/plugins install review@conduit-ui-marketplace` |
+| **review** | Expert PR review system with architecture assessment and pattern learning | `/plugins install review@conduit-ui-marketplace` |
+| **know** | Knowledge management - capture and retrieve technical insights | `/plugins install know@conduit-ui-marketplace` |
 
 ## Plugin Details
 
@@ -28,6 +29,17 @@ Comprehensive parallel PR review system featuring:
 - **Parallel Execution** - Multiple specialized agents review simultaneously
 
 [View documentation](https://github.com/conduit-ui/review)
+
+### know
+
+Knowledge management agents for Conduit:
+
+- **knowledge-bridge** - Capture technical insights, patterns, and decisions
+- **knowledge-retriever** - Query knowledge base to resolve confusion
+
+Requires Conduit CLI with the `knowledge` component installed.
+
+[View documentation](https://github.com/conduit-ui/know-plugin)
 
 ## Adding New Plugins
 

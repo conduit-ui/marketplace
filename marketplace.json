@@ -14,6 +14,15 @@
       },
       "description": "Comprehensive parallel PR review system with architecture and implementation analysis",
       "version": "1.0.0"
+    },
+    {
+      "name": "know",
+      "source": {
+        "type": "url",
+        "url": "https://github.com/conduit-ui/know-plugin.git"
+      },
+      "description": "Knowledge management agents - capture and retrieve technical insights, patterns, and decisions",
+      "version": "1.0.0"
     }
   ]
 }
