@@ -1,0 +1,19 @@
+{
+  "name": "conduit-ui-marketplace",
+  "description": "Claude Code plugins marketplace for Conduit UI ecosystem",
+  "owner": {
+    "name": "Jordan Partridge",
+    "email": "jordan@partridge.rocks"
+  },
+  "plugins": [
+    {
+      "name": "review",
+      "source": {
+        "type": "url",
+        "url": "https://github.com/conduit-ui/review.git"
+      },
+      "description": "Comprehensive parallel PR review system with architecture and implementation analysis",
+      "version": "1.0.0"
+    }
+  ]
+}
