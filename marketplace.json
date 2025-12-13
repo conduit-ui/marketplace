@@ -23,6 +23,15 @@
       },
       "description": "Knowledge management agents - capture and retrieve technical insights, patterns, and decisions",
       "version": "1.0.0"
+    },
+    {
+      "name": "book-of-life",
+      "source": {
+        "type": "url",
+        "url": "https://github.com/conduit-ui/book-of-life.git"
+      },
+      "description": "Persistent memory for Claude Code. Every session logged, every insight captured, every pattern searchable.",
+      "version": "1.0.0"
     }
   ]
 }
