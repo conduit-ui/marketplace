@@ -1,6 +1,9 @@
 {
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
   "name": "conduit-ui-marketplace",
-  "description": "Claude Code plugins marketplace for Conduit UI ecosystem",
+  "metadata": {
+    "description": "Claude Code plugins marketplace for Conduit UI ecosystem"
+  },
   "owner": {
     "name": "Jordan Partridge",
     "email": "jordan@partridge.rocks"
@@ -9,8 +12,8 @@
     {
       "name": "review",
       "source": {
-        "type": "url",
-        "url": "https://github.com/conduit-ui/review.git"
+        "source": "github",
+        "repo": "conduit-ui/review"
       },
       "description": "Comprehensive parallel PR review system with architecture and implementation analysis",
       "version": "1.0.0"
@@ -18,8 +21,8 @@
     {
       "name": "know",
       "source": {
-        "type": "url",
-        "url": "https://github.com/conduit-ui/know-plugin.git"
+        "source": "github",
+        "repo": "conduit-ui/know-plugin"
       },
       "description": "Knowledge management agents - capture and retrieve technical insights, patterns, and decisions",
       "version": "1.0.0"
@@ -27,8 +30,8 @@
     {
       "name": "book-of-life",
       "source": {
-        "type": "url",
-        "url": "https://github.com/conduit-ui/book-of-life.git"
+        "source": "github",
+        "repo": "conduit-ui/book-of-life"
       },
       "description": "Persistent memory for Claude Code. Every session logged, every insight captured, every pattern searchable.",
       "version": "1.0.0"
